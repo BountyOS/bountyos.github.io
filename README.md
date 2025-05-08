@@ -15,7 +15,7 @@ It strips away the noise and gives you exactly what you need — no fluff, just 
 
 ## 🛠️ Preinstalled Tools
 
-BountyOS includes **78 essential tools** that every bug bounty hunter should have in their arsenal.  
+BountyOS includes **+75 essential tools** that every bug bounty hunter should have in their arsenal.  
 Here’s a quick peek at some of them:
 
 | Tool       | Description |
