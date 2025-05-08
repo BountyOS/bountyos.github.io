@@ -1,1 +1,169 @@
-<h1>test</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BountyOS - Bug Bounty Linux OS</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+    body {
+      margin: 0;
+      background-color: #0d0d0d;
+      color: #33ff33;
+      font-family: 'Share Tech Mono', monospace;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 40px;
+      border-bottom: 1px solid #222;
+      background: linear-gradient(to bottom, #0d0d0d, #111);
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #33ff33;
+      text-shadow: 0 0 10px #33ff33;
+      animation: flicker 2s infinite alternate;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #66ff66;
+      margin-top: 10px;
+    }
+
+    @keyframes flicker {
+      0% { opacity: 1; }
+      50% { opacity: 0.9; }
+      100% { opacity: 1; }
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      border-left: 4px solid #33ff33;
+      padding-left: 10px;
+      font-size: 24px;
+      color: #33ff33;
+      text-shadow: 0 0 5px #33ff33;
+      margin-bottom: 15px;
+    }
+
+    p, li {
+      color: #99ff99;
+      font-size: 16px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    code {
+      background: #111;
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #00ffcc;
+    }
+
+    a {
+      color: #00e6e6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #555;
+      border-top: 1px solid #222;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+  <h1>BountyOS</h1>
+  <img src="https://github.com/BountyOS/bountyos.github.io/blob/main/images/graphitilogo-png.png?raw=true"
+       alt="BountyOS Logo"
+       style="margin-top: 20px; max-width: 200px; height: auto; filter: drop-shadow(0 0 5px #33ff33);">
+  <p>The Ultimate Linux OS for Bug Bounty Hunters By Cyber-KRD Team.</p>
+  </header>
+
+
+  <main>
+    <section>
+      <h2>Why BountyOS?</h2>
+      <p>
+        BountyOS is a custom Debian 12-based Linux distro crafted exclusively for bug bounty professionals and real-world web app security research. Unlike traditional hacking distros packed with unnecessary tools, BountyOS stays clean, sharp, and purpose-driven.
+      </p>
+    </section>
+
+    <section>
+      <h2>Key Features</h2>
+      <ul>
+        <li>All tools work in Live Mode — no installation required.</li>
+        <li>Installation is fast, easy, and optional.</li>
+        <li>Powered by stable and secure Debian 12.</li>
+        <li>Supports both <code>amd64</code> and <code>arm64</code> architectures.</li>
+        <li>Architecture-specific tools — optimized for your system.</li>
+        <li>No outdated or archived tools included.</li>
+        <li>Ongoing updates and custom tools developed by us.</li>
+        <li>Includes exclusive tools not found in other distros.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Included Tools (78+)</h2>
+      <p>Some of the most-used and effective tools in modern bug bounty workflows:</p>
+      <ul>
+        <li><strong>Recon:</strong> amass, subfinder, assetfinder</li>
+        <li><strong>Scanning:</strong> nuclei, httpx, dalfox, gf, waybackurls</li>
+        <li><strong>Brute Forcing:</strong> ffuf, dirsearch, wordlists</li>
+        <li><strong>Networking:</strong> massdns, dnsx, masscan</li>
+        <li><strong>Testing:</strong> Burp Suite, OWASP-ZAP, Sqlmap</li>
+        <li><strong>OSINT:</strong> theHarvester, recon-ng, etc..</li>
+        <li>Click <a href="https://bountyos.github.io/available-tools.html">Here</a> to see All installed Tools.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Who's it for?</h2>
+      <ul>
+        <li>Bug bounty hunters on platforms like HackerOne, Bugcrowd, Intigriti, YesWeHack</li>
+        <li>Security researchers focusing on recon and app testing</li>
+        <li>Red teamers who want a clean OS without bloat</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Availability</h2>
+      <ul>
+        <li>Supports <code>x86_64</code> (amd64) and <code>arm64</code> platforms</li>
+        <li>Downloadable ISO release coming soon</li>
+        <li>Open-source GitHub repository will be available</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 BountyOS. Built for hunters, by hunters.
+  </footer>
+
+</body>
+</html>
