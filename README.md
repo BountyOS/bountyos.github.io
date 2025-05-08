@@ -32,7 +32,7 @@ Here’s a quick peek at some of them:
 | `dnsx`     | Fast and customizable DNS toolkit |
 | ...and 66 more! 🔥 |
 
-▶️ Tools will be added continuously, View the full list of tools: [tools.html](tools.html)
+▶️ Tools will be added continuously, View the full list of tools: [tools.html](https://bountyos.github.io/available-tools.html)
 
 ---
 
