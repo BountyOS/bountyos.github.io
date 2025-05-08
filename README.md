@@ -53,7 +53,11 @@ After booting, open the terminal and type:
 sudo apt install calamares calamares-settings -y
 sudo calamares # now you can manually install the os
 ```
-Install and hack the planet 🌍
+VMware tools are not installed by default, here is how to install it:
+```
+sudo apt install open-vm-tools open-vm-tools-desktop -y
+```
+Now hack the planet 🌍
 
 ---
 
