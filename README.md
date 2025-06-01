@@ -45,7 +45,13 @@ Here’s a quick peek at some of them:
 ---
 
 ## 🧪 Usage
-Download the latest `.iso`: Download [AMD64](https://drive.google.com/file/d/1BEiyJvMbzdhmgfITOsV_Qi8YnLqR833K/view?usp=sharing) OR [ARM64](https://drive.google.com/file/d/1MX3Gqd1M3dkVkM28hTrA8OwANgcdjAFD/view?usp=sharing)
+Download the latest `.iso`: Download
+- Google Drive
+- [AMD64](https://drive.google.com/file/d/1BEiyJvMbzdhmgfITOsV_Qi8YnLqR833K/view?usp=sharing) 
+- [ARM64](https://drive.google.com/file/d/1MX3Gqd1M3dkVkM28hTrA8OwANgcdjAFD/view?usp=sharing)
+- Mega.nz
+- [AMD64](https://mega.nz/file/nRUFkJIC#YGica7w5CyZ3x1NrBr8RwXUnoZJCIdz1jO4hqT-yCUo)
+- [ARM64](https://mega.nz/file/6BNw2CKC#E_ezdmvggV6uSTbsI6nQbriL40pZpaL9fFlCvyRIkdk)
 
 You can install calamares to install both versions.
 After booting, open the terminal and type:
